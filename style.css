@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -164,64 +165,86 @@ figcaption:hover>p{
  
 /*====== END header ======*/
 
-/*===== START banner =====*/
-
-.banner{
-	
-	height: 250px;
-	margin: 0 30px;
-	background: #d33a2c;
-    padding: 20px 0;
-	color: #fff;
-	font-family: 'Lora', serif;
-}
-
-.banner_graphic_cat{
-	position: absolute;
-	width: 255px;
-    margin-top: -1em;
-    right: 35px;
-}
-.banner_graphic_cat img{
-	position: relative;
-
-}
-.first_text{
-	padding: 0 20px;
-}
-.banner_p{
-	display: block;
-    margin-bottom: 8px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 17px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-shadow: none;
-}
-.banner_h1{
-	font-size: 30px;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.25);
-	font-weight: bold;
-}
-.banner_description{
-	padding: 0 20px;
-	font-size: 20px;
-	margin-top: 30px;
-}
-/*======END banner========*/
-
+/*==== first section =====*/
 section{
 	height: 200px;
 	display: block;
 	background: rgb(32, 73, 32);
 	border: 1px solid brown;
 }
+.first-block{
+  width: 100%;
+}
+.box{
+  background-color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px;
+}
+.top-text{
+  position: absolute;
+  top: 200px;
+  left: 520px;
+  z-index: 1;
+  margin: auto;
+  letter-spacing: 1px;
+}
+.bottom-text{
+  position: absolute;
+  top: 240px;
+  left: 610px;
+  margin: auto;
+  letter-spacing: -1px;
+}
 
-
-
-
+.tiny-box{
+  padding: 200px 64px 148px 64px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+}
+.tiny-box:nth-child(1){
+  background-color: #bc3428;
+}
+.tiny-box:nth-child(2){
+  background-color: #c7372a;
+}
+.tiny-box:nth-child(3){
+  background-color: #b13125;
+}
+.tiny-box:nth-child(4){
+  background-color: #bc3428;
+}
+.left-top img{
+  transform: rotate(-11deg);
+  max-width: 76px;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+.left-top img:hover{
+  transform: rotate(0);
+}
+.left-top span{
+  font-style: italic;
+  font-weight: 400;
+}
+.left-top p{
+  margin: 20px 0 0 20px;
+}
+.tiny-box h1{
+  padding-top: 30px;
+  line-height: 1.5;
+  font-size: 33px;
+}
+.tiny-box i:after{
+  content: '→';
+  display: block;
+  color: #fff;
+  font-size: 50px;
+  padding: 0;
+  position: absolute;
+  bottom: 5px;
+}
 /*===== START load more section====*/
 a.load_more_link:after {
 	content: ' → ';
