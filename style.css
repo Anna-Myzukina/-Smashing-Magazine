@@ -167,7 +167,7 @@ figcaption:hover>p{
 /*===== START banner =====*/
 
 .banner{
-	display: none;
+	
 	height: 250px;
 	margin: 0 30px;
 	background: #d33a2c;
